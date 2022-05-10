@@ -1,5 +1,5 @@
 //styles
-import './Project.css';
+import './Projects.css';
 
 export default function Project() {
   return <div>Project</div>;
