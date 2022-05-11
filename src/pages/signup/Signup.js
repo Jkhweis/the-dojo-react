@@ -27,8 +27,8 @@ export default function Signup() {
       setThumbnailError('Selected file must be an image');
       return;
     }
-    if (selected.size > 100000) {
-      setThumbnailError('Image file size must be less than 100kb');
+    if (selected.size > 200000) {
+      setThumbnailError('Image file size must be less than 200kb');
       return;
     }
     setThumbnailError(null);
